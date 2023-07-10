@@ -105,5 +105,22 @@ nav .icon {
   right: 0;
 
   height: 30%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dark {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* SECTION 2 */
+
+/* SECTION 3 */
+
+/* SECTION 4 */
+
+/* FOOTER */
+
+footer {
+  height: 30rem;
+  width: 100%;
 }
