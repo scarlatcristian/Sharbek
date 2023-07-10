@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  overflow-y: hidden;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /* MOBILE */
@@ -68,4 +68,42 @@ nav .icon {
   background-size: cover;
   height: 100%;
   width: 80%;
+}
+
+/* SECTION 1 */
+.section1 {
+  height: fit-content;
+  width: 100%;
+}
+
+.divider {
+  background-color: #e8dada;
+  border: 1px solid #222422;
+  height: 10rem;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.img-container {
+  border-bottom: 1px solid #222422;
+  background-image: url("https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  position: relative;
+
+  height: 40rem;
+  width: 20%;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
