@@ -59,6 +59,16 @@ nav {
   height: 100%;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+nav ul li {
+}
+
 nav .icon {
   height: 20%;
 }
