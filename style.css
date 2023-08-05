@@ -188,6 +188,25 @@ nav .icon {
 
 /* SECTION 4 */
 
+.section4 {
+  display: flex;
+
+  width: 100%;
+}
+
+.section4 .form {
+  width: 30%;
+  height: 450px;
+}
+
+.map-container {
+  width: 70%;
+}
+
+.map-container iframe {
+  width: 100%;
+}
+
 /* FOOTER */
 
 footer {
