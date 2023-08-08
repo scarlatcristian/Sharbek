@@ -66,11 +66,8 @@ nav ul {
   height: 80%;
 }
 
-nav ul li {
-}
-
-nav .icon {
-  height: 20%;
+nav .icon img {
+  height: 10rem;
 }
 
 .slideshow {
